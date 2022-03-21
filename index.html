@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CURRENT BALANCE</h1>
+            <div class="nest-head">
+                <section>
+                    <h4>INCOME</h4>
+                    <h4 class="income">$<span id="income-balance">0</span></h4>
+                </section>
+                <section class="balance">
+                    <h4 class="current">$<span id="current-balance">0</span></h4>
+                </section>
+                <section>
+                    <h4 class="right">EXPENSE</h4>
+                    <h4 class="expense">-$<span id="expense-balance">0</span></h4>
+                </section>
+            </div>
+        </header>
+        <main>
+            <form>
+                <div class="row">
+                    <select name="" id="" class="select">
+                        <option value="income">INCOME</option>
+                        <option value="expense">EXPENSE</option>
+                    </select>
+                    <div class="amount">
+                        <label for="">AMOUNT $</label>
+                        <input type="number" name="" id="" class=".input">
+                    </div>
+                </div>
+                <label for="" class="label">PURPOSE</label>
+                <textarea name="" id="" class='textarea'></textarea>
+                <button class="btn" type="submit">SAVE</button>
+            </form>
+            <div class="header-2">
+                <h3>Account History</h3>
+            </div>
+
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
